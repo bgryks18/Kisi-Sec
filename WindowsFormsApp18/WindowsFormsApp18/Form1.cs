@@ -21,10 +21,8 @@ namespace WindowsFormsApp18
         string[] isimler = { "Buğra Yüksel", "Mustafa Can Telli", "Harun Reşit", "Adnan Cansız", "Anıl Adar", "Ecemnur Naz", "Rifka Razon", "Dilara Dönmez", "Deniz Genç", "Berkay Yıldız", "Ozan Kut", "Merve Sofuoğlu", "Adem", "Eren Ergin", "Abdullah" };
         void birinisec() {
 
-                string eskitext = btnSec.Text;
                 sayi = rnd.Next(0, (isimler.Length));
                 lstListe.SelectedIndex = sayi;
-                btnSec.Text = eskitext;
           
             
         }
