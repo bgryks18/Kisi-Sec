@@ -22,12 +22,8 @@ namespace WindowsFormsApp18
         void birinisec() {
 
                 string eskitext = btnSec.Text;
-                btnSec.Text = "Seçiliyor..";
-                btnSec.Visible = false;
-            sayi = rnd.Next(0, (isimler.Length));
+                sayi = rnd.Next(0, (isimler.Length));
                 lstListe.SelectedIndex = sayi;
-
-                btnSec.Visible = true;
                 btnSec.Text = eskitext;
           
             
