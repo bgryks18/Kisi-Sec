@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp18", "WindowsFormsApp18\WindowsFormsApp18.csproj", "{9ED20E4F-35A5-411F-9C66-DDC3324BD84B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kisi_Sec", "WindowsFormsApp18\Kisi_Sec.csproj", "{9ED20E4F-35A5-411F-9C66-DDC3324BD84B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
