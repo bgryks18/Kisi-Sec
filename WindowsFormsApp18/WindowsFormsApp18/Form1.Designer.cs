@@ -29,11 +29,8 @@ namespace WindowsFormsApp18
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.lstListe = new System.Windows.Forms.ListBox();
             this.btnSec = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.lblBilgi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lstListe
@@ -54,21 +51,12 @@ namespace WindowsFormsApp18
             this.btnSec.Text = "Bir Kişi Seç";
             this.btnSec.UseVisualStyleBackColor = true;
             this.btnSec.Click += new System.EventHandler(this.btnSec_Click);
-
-            // 
-            // lblBilgi
-            // 
-            this.lblBilgi.Location = new System.Drawing.Point(0, 0);
-            this.lblBilgi.Name = "lblBilgi";
-            this.lblBilgi.Size = new System.Drawing.Size(100, 23);
-            this.lblBilgi.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblBilgi);
             this.Controls.Add(this.btnSec);
             this.Controls.Add(this.lstListe);
             this.Name = "Form1";
@@ -82,8 +70,6 @@ namespace WindowsFormsApp18
 
         private System.Windows.Forms.ListBox lstListe;
         private System.Windows.Forms.Button btnSec;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label lblBilgi;
     }
 }
 
